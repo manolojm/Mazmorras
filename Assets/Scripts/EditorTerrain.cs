@@ -51,7 +51,7 @@ public class EditorTerrain : MonoBehaviour
 
             var worldTreePos = Vector3.Scale(terrainData.treeInstances[i].position, terrainData.size) + Terrain.activeTerrain.transform.position;
 
-            Debug.Log("Nuevo arbol ---> " + terrainData.treeInstances[i].position);
+            Debug.Log("Nuevo arbol ---> " + Terrain.activeTerrain.transform.position);
 
             var tree = Instantiate(trees[Random.Range(0, trees.Count)], worldTreePos, Quaternion.identity, transform);
             //tree.transform.localScale = Vector3.one * Random.Range(0, dimensionMapa);
