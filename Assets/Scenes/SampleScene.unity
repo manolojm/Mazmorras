@@ -272,6 +272,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &781429016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2191406282767551358, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
+  m_PrefabInstance: {fileID: 1994598832512493108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +506,21 @@ MonoBehaviour:
   posInicio: 0
   sala: {fileID: 2173035642566246409, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
   offset: {x: 10, y: 10}
+--- !u!1 &1444702374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2191406282143417546, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
+  m_PrefabInstance: {fileID: 1994598832512493108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1481846648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5610507188139732397, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
+  m_PrefabInstance: {fileID: 1994598832512493108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1799067139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5610507188429401003, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
+  m_PrefabInstance: {fileID: 1994598832512493108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1823208353
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +657,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1325807593170882496, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
+      propertyPath: muro.Array.data[2]
+      value: 
+      objectReference: {fileID: 1481846648}
+    - target: {fileID: 1325807593170882496, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
+      propertyPath: muro.Array.data[3]
+      value: 
+      objectReference: {fileID: 1799067139}
+    - target: {fileID: 1325807593170882496, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
+      propertyPath: puerta.Array.data[2]
+      value: 
+      objectReference: {fileID: 1444702374}
+    - target: {fileID: 1325807593170882496, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
+      propertyPath: puerta.Array.data[3]
+      value: 
+      objectReference: {fileID: 781429016}
     - target: {fileID: 1845740535930791428, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -684,6 +720,10 @@ PrefabInstance:
     - target: {fileID: 2173035642566246409, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
       propertyPath: m_Name
       value: Sala
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173035642566246409, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
