@@ -272,13 +272,13 @@ MonoBehaviour:
   muro:
   - {fileID: 5610507188108215321}
   - {fileID: 5610507186694805094}
-  - {fileID: 5610507188429401003}
   - {fileID: 5610507188139732397}
+  - {fileID: 5610507188429401003}
   puerta:
   - {fileID: 2191406281619387929}
   - {fileID: 2191406282228140701}
-  - {fileID: 2191406282767551358}
   - {fileID: 2191406282143417546}
+  - {fileID: 2191406282767551358}
 --- !u!1001 &1994598832540693853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -777,7 +777,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 416386656469751746, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_Name
-      value: Door (1)
+      value: DoorS
+      objectReference: {fileID: 0}
+    - target: {fileID: 2602557818988338762, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_RootOrder
@@ -906,7 +910,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 416386656469751746, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_Name
-      value: Door (3)
+      value: DoorO
+      objectReference: {fileID: 0}
+    - target: {fileID: 2602557818988338762, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_RootOrder
@@ -1744,7 +1752,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 416386656469751746, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_Name
-      value: Door
+      value: DoorN
+      objectReference: {fileID: 0}
+    - target: {fileID: 2602557818988338762, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_RootOrder
@@ -3548,7 +3560,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 416386656469751746, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_Name
-      value: Door (2)
+      value: DoorE
+      objectReference: {fileID: 0}
+    - target: {fileID: 2602557818988338762, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_RootOrder

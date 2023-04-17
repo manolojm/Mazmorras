@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -272,11 +272,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &781429016 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2191406282767551358, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
-  m_PrefabInstance: {fileID: 1994598832512493108}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,21 +501,6 @@ MonoBehaviour:
   posInicio: 0
   sala: {fileID: 2173035642566246409, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
   offset: {x: 10, y: 10}
---- !u!1 &1444702374 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2191406282143417546, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
-  m_PrefabInstance: {fileID: 1994598832512493108}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1481846648 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5610507188139732397, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
-  m_PrefabInstance: {fileID: 1994598832512493108}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1799067139 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5610507188429401003, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
-  m_PrefabInstance: {fileID: 1994598832512493108}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1823208353
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,37 +599,6 @@ MonoBehaviour:
     alturaInicio: 15
   - indiceTextura: 2
     alturaInicio: 30
---- !u!1 &1970181384
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1970181385}
-  m_Layer: 0
-  m_Name: Lamparas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1970181385
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970181384}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1994598832512493108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -657,22 +606,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1325807593170882496, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
-      propertyPath: muro.Array.data[2]
-      value: 
-      objectReference: {fileID: 1481846648}
-    - target: {fileID: 1325807593170882496, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
-      propertyPath: muro.Array.data[3]
-      value: 
-      objectReference: {fileID: 1799067139}
-    - target: {fileID: 1325807593170882496, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
-      propertyPath: puerta.Array.data[2]
-      value: 
-      objectReference: {fileID: 1444702374}
-    - target: {fileID: 1325807593170882496, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
-      propertyPath: puerta.Array.data[3]
-      value: 
-      objectReference: {fileID: 781429016}
     - target: {fileID: 1845740535930791428, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -723,7 +656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2173035642566246409, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ed63fdca7236024cbe20e1ed4e84359, type: 3}
